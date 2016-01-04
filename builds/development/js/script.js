@@ -70,7 +70,9 @@ var rclick = function() {
     }, false); // click event
   }
 }(); //anonymous closure
-var fill;
+var $, fill;
+
+$ = require('jquery');
 
 (fill = function(item) {
   return $('.tagline').append("" + item);
